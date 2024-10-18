@@ -1,0 +1,102 @@
+/* General styling for the web design details container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.web-design-details {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p,
+ol,
+ul {
+  color: #555555;
+  line-height: 1.6;
+}
+
+ol,
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .web-design-details {
+    padding: 15px 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  ol,
+  ul {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .web-design-details {
+    padding: 10px 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p,
+  ol,
+  ul {
+    font-size: 0.8rem;
+  }
+}
